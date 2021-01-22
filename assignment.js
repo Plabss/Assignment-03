@@ -1,3 +1,12 @@
+// https://github.com/Plabss/assignment-03
+
+
+
+
+
+
+
+
 // Problem-01:
 
 function kilometerToMeter(km) {
@@ -72,18 +81,18 @@ function hotelCost(numberOfDays) {
 function megaFriend(arr) {
     if (arr.length == 0) {
         return "Opps! You have no friend.";
-    } 
+    }
     else {
         var nameOfMaximumlength = arr[0];
         for (var i = 0; i < arr.length; i++) {
             if (arr[i].length > nameOfMaximumlength.length) {
                 nameOfMaximumlength = arr[i];
             }
-        }var result= nameOfMaximumlength;
-        if(typeof result !='string'){
+        } var result = nameOfMaximumlength;
+        if (typeof result != 'string') {
             return "You should push an array of only 'String' into parameter.";
         }
-        else{
+        else {
             return result;
         }
     }
